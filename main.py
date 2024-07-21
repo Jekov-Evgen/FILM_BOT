@@ -3,7 +3,6 @@ from parsing import parsing_all_movies, parsing_the_best
 from parsing import best_movies, all_films
 from telebot import types
 import random
-from bs4 import BeautifulSoup as bs
 from TOKEN import token
 
 pars_bot = telebot.TeleBot(token)
